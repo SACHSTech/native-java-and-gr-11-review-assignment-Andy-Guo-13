@@ -46,7 +46,7 @@ public class Review1 {
     dayNum = Integer.parseInt(br.readLine());
     
     //Loop - add the days of each month up until the user inputed month
-    for (int i = 0; i < monthNum; i++) {
+    for (int i = 0; i < monthNum - 1; i++) {
       sum += monthArray[i];
     }
 
