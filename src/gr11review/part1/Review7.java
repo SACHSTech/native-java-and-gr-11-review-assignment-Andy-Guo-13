@@ -28,10 +28,10 @@ java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c
 
 public class Review7 {
   public static void main(String[] args) throws IOException{
-    //BufferedReader
+    // BufferedReader
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    //Declaring + initializing variables
+    // Declaring + initializing variables
     String inputSentence;
     String[] sentenceCharacter;
     String oddCharacter = "";
@@ -39,34 +39,34 @@ public class Review7 {
     int spaceNum = 0;
     int letterANum = 0;
 
-    //Taking input
+    // Taking input
     inputSentence = br.readLine();
 
-    //Converting input into an array
+    // Converting input into an array
     sentenceCharacter = inputSentence.split("");
     
-    //Loop - for every character within the array
+    // Loop - for every character within the array
     for (String i : sentenceCharacter) {
-      //Count the character number
+      // Count the character number
       characterNum++;
 
-      //If character number is odd, add to the string
+      // If character number is odd, add to the string
       if (characterNum % 2 == 1) {
         oddCharacter += i;
       }
       
-      //If the character is a space, add to spaceNum
+      // If the character is a space, add to spaceNum
       if (i.equals(" ")) {
         spaceNum++;
       }
 
-      //If the character is an "a", add to letterANum
+      // If the character is an "a", add to letterANum
       if (i.equals("a")) {
         letterANum++;
       }
     }
 
-    //Output
+    // Output
     System.out.println("There are " + characterNum + " characters in the sentence.");
     System.out.println("There are " + spaceNum + " spaces in the sentence.");
     System.out.println("There are " + letterANum + " letter a in the sentence.");
@@ -74,5 +74,5 @@ public class Review7 {
   }
 }
 
-//Question: what are the specifics of the outputs?
-//Question: do upper case "A"s count?
+// Question: what are the specifics of the outputs?
+// Question: do upper case "A"s count?

@@ -24,18 +24,18 @@ java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c
 public class Review3 {
   public static void main(String[] args) {
 
-    //First loop
+    // First loop
     for (int i = 20; i <= 100; i++) {
-      //If odd, print the number
+      // If odd, print the number
       if (i % 2 == 1) {
         System.out.println(i);
       }
     }
     
-    //Spacing in between
+    // Spacing in between
     System.out.println("");
     
-    //Second loop
+    // Second loop
     for (int i = 29; i >= 2; i--) {
       System.out.println(i);
     }
