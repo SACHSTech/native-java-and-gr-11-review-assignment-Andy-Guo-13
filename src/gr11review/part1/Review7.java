@@ -70,7 +70,7 @@ public class Review7 {
     System.out.println("There are " + characterNum + " characters in the sentence.");
     System.out.println("There are " + spaceNum + " spaces in the sentence.");
     System.out.println("There are " + letterANum + " letter a in the sentence.");
-    //System.out.println(oddCharacter);
+    System.out.println(oddCharacter);
   }
 }
 
