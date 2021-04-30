@@ -23,6 +23,7 @@ java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c
 *   The number of spaces
 *   The number of letters
 *   A string with the odd numbered characters
+* 
 * @author: Andy Guo
 */
 
@@ -52,7 +53,7 @@ public class Review7 {
 
       // If character number is odd, add to the string
       if (characterNum % 2 == 1) {
-        oddCharacter += i;
+        oddCharacter += "-";
       }
       
       // If the character is a space, add to spaceNum
